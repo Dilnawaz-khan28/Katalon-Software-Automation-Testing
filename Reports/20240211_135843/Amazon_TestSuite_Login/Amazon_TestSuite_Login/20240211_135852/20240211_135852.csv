@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login,Chrome 121.0.0.0,,,11-02-2024 13:58:57,11-02-2024 14:00:48,1m - 51.355s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Login-001,Chrome 121.0.0.0,,,11-02-2024 13:58:57,11-02-2024 14:00:48,1m - 51.037s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,11-02-2024 13:58:58,11-02-2024 13:59:04,6.498s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 13:59:04,11-02-2024 13:59:06,1.359s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,11-02-2024 13:59:06,11-02-2024 13:59:07,1.764s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 121.0.0.0,,,11-02-2024 13:59:07,11-02-2024 13:59:09,1.873s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_email""), username)",Chrome 121.0.0.0,,,11-02-2024 13:59:09,11-02-2024 13:59:11,2.182s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign In/input_email""))",Chrome 121.0.0.0,,,11-02-2024 13:59:11,11-02-2024 13:59:12,0.360s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_password""), Password)",Chrome 121.0.0.0,,,11-02-2024 13:59:12,11-02-2024 14:00:15,1m - 2.912s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,11-02-2024 14:00:15,11-02-2024 14:00:48,33.061s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Amazon_Login/Amazon_Login""), false)",Chrome 121.0.0.0,,,11-02-2024 14:00:48,11-02-2024 14:00:48,0.495s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:00:48,11-02-2024 14:00:48,0.256s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,11-02-2024 14:00:48,11-02-2024 14:00:48,0.005s,PASSED

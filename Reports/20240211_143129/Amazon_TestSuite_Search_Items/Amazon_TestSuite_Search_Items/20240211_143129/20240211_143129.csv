@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Search_Items,Chrome 121.0.0.0,,,11-02-2024 14:31:34,11-02-2024 14:34:01,2m - 27.655s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Search_Items_003,Chrome 121.0.0.0,,,11-02-2024 14:31:34,11-02-2024 14:34:01,2m - 27.258s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,11-02-2024 14:31:34,11-02-2024 14:31:38,3.728s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:31:38,11-02-2024 14:31:39,1.179s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,11-02-2024 14:31:39,11-02-2024 14:31:41,1.555s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 121.0.0.0,,,11-02-2024 14:31:41,11-02-2024 14:32:13,32.662s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign In/input_email""), ""8240029491"")",Chrome 121.0.0.0,,,11-02-2024 14:32:13,11-02-2024 14:33:16,1m - 2.823s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,11-02-2024 14:33:16,11-02-2024 14:33:17,1.194s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign In/input_password""), ""5/jcUxQCiK4EYWKojWkF+g=="")",Chrome 121.0.0.0,,,11-02-2024 14:33:17,11-02-2024 14:33:49,31.632s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,11-02-2024 14:33:49,11-02-2024 14:33:49,0.326s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=stripbooks"", true)",Chrome 121.0.0.0,,,11-02-2024 14:33:49,11-02-2024 14:33:56,6.417s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""will"")",Chrome 121.0.0.0,,,11-02-2024 14:33:56,11-02-2024 14:33:57,1.065s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_iam shakespeare books""))",Chrome 121.0.0.0,,,11-02-2024 14:33:57,11-02-2024 14:34:01,4.125s,PASSED
+"switchToWindowTitle(""Amazon.in : william shakespeare books"")",Chrome 121.0.0.0,,,11-02-2024 14:34:01,11-02-2024 14:34:01,0.034s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:34:01,11-02-2024 14:34:01,0.333s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,11-02-2024 14:34:01,11-02-2024 14:34:01,0.005s,PASSED

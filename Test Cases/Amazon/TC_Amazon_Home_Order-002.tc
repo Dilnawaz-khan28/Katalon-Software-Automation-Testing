@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Home_Order-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac1eae9b-30dc-419f-9983-7d69700a1669</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7bc868fb-773f-446e-a818-3b4b2e225fd5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21e84559-37cc-4acb-8582-efd80ca518d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'saifkhan.mzk25@gmail.com'</defaultValue>
+      <description></description>
+      <id>7bc868fb-773f-446e-a818-3b4b2e225fd5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Saifkhan@12'</defaultValue>
+      <description></description>
+      <id>21e84559-37cc-4acb-8582-efd80ca518d9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

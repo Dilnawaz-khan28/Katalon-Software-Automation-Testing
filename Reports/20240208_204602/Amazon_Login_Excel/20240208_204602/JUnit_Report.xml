@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Login_Excel" time="26.013" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_Login_Excel" tests="1" failures="0" errors="0" time="26.013" skipped="0" timestamp="08-02-2024T20:46:06" hostname="dilna - LAPTOP-TOP92MPD" id="Test Suites/Amazon_Login_Excel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dilna\\git\\Katalon-Software-Automation-Testing\\Reports\\20240208_204602\\Amazon_Login_Excel\\20240208_204602"/>
+         <property name="logFiles" value="C:\\Users\\dilna\\git\\Katalon-Software-Automation-Testing\\Reports\\20240208_204602\\Amazon_Login_Excel\\20240208_204602\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dilna - LAPTOP-TOP92MPD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.22.83"/>
+         <property name="sessionId" value="c4eccbec5b4db7ef6d16b0ddcb37161b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_Amazon_Home_Login-001" time="25.654" classname="Test Cases/Amazon/TC_Amazon_Home_Login-001" status="PASSED">
+         <system-out><![CDATA[08-02-2024T20:46:07 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_Home_Login-001: Test Cases/Amazon/TC_Amazon_Home_Login-001
+
+08-02-2024T20:46:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T20:46:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T20:46:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T20:46:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T20:46:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T20:46:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T20:46:10 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T20:46:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T20:46:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-02-2024T20:46:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T20:46:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T20:46:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T20:46:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T20:46:13 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T20:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in")): Object: 'Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in' is clicked on
+
+08-02-2024T20:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in' is clicked on
+
+08-02-2024T20:46:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_OR/Page_Amazon Sign In/input_email"), username): Text '8240029491' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign In/input_email'
+
+08-02-2024T20:46:27 - [MESSAGE][PASSED] - Text '8240029491' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign In/input_email'
+
+08-02-2024T20:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon Sign In/input_email")): Object: 'Object Repository/Amazon_OR/Page_Amazon Sign In/input_email' is clicked on
+
+08-02-2024T20:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon Sign In/input_email' is clicked on
+
+08-02-2024T20:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_OR/Page_Amazon Sign In/input_password"), Password): Text 'SaifKhan@12' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign In/input_password'
+
+08-02-2024T20:46:32 - [MESSAGE][PASSED] - Text 'SaifKhan@12' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign In/input_password'
+
+08-02-2024T20:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_OR/Page_Amazon Sign In/inputsignInSubmit")): Object: 'Object Repository/Amazon_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+08-02-2024T20:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+08-02-2024T20:46:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T20:46:32 - [MESSAGE][PASSED] - Browser is closed
+
+08-02-2024T20:46:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+08-02-2024T20:46:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T20:46:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T20:46:06 - [TEST_SUITE][PASSED] - Amazon_Login_Excel: Test Cases/Amazon/TC_Amazon_Home_Login-001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
